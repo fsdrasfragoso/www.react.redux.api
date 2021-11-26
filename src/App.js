@@ -3,6 +3,7 @@ import './App.css';
 import User from './User';
 import photo from './perfil.jpeg'; 
 import { Component } from 'react';
+import List from './List';
 class App extends Component
 {
   constructor(props)
@@ -68,6 +69,7 @@ class App extends Component
         </div>
         <button onClick={this.changeState}> Mudar estado</button>
         <button onClick={this.resetState}> Resetar Estado</button>
+        <List></List>
       </div>
     );
   }
