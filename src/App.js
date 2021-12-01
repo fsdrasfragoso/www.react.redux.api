@@ -69,7 +69,7 @@ class App extends Component
         </div>
         <button onClick={this.changeState}> Mudar estado</button>
         <button onClick={this.resetState}> Resetar Estado</button>
-        <List></List>
+        
       </div>
     );
   }
